@@ -1,2 +1,0 @@
-#image name,greater than or equal to version,smaller than (optional)
-vulnerability-service,v0.2.0,v0.4.0
