@@ -1,4 +1,4 @@
-// ONLY THE MAIN BRANCH DEPENDENCIES WILL BE USED
+_comment: "ONLY THE MAIN BRANCH DEPENDENCIES WILL BE USED"
 [
   {
     "microservice": "cluster-entity-daemon",
