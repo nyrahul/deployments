@@ -1,0 +1,25 @@
+// ONLY THE MAIN BRANCH DEPENDENCIES WILL BE USED
+[
+  {
+    "microservice": "cluster-entity-daemon",
+    "operator": ">=",
+    "version": "v0.2.0"
+  },
+  [
+    {
+      "depends_on": "shared-informer-service",
+      "operator": ">=",
+      "version": "v0.3.2"
+    },
+    {
+      "depends_on": "shared-informer-service",
+      "operator": "<=",
+      "version": "v0.5.1"
+    },
+    {
+      "depends_on": "cluster-mgmt-service",
+      "operator": ">=",
+      "version": "v0.3.0"
+    }
+  ]
+]
